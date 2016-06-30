@@ -15,8 +15,8 @@ from sklearn.cross_validation import cross_val_score
 #读入垃圾邮件和正常邮件
 spam=[]
 ham=[]
-spamPath = r'C:\Users\jining\Desktop\机器学习资料\_源代码\machinelearninginaction\Ch04\email\spam'+'\\'
-hamPath = r'C:\Users\jining\Desktop\机器学习资料\_源代码\machinelearninginaction\Ch04\email\ham'+'\\'
+spamPath = r'email\spam'+'\\'
+hamPath = r'email\ham'+'\\'
 spamNames = os.listdir(spamPath)
 hamNames = os.listdir(hamPath)
 spamTarget = [1]*len(spamNames)
