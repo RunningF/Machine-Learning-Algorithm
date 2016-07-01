@@ -15,8 +15,8 @@ from sklearn.pipeline import Pipeline
 import pandas as pd
 
 #读入数据
-trainPath = r'C:\Users\jining\Desktop\机器学习资料\_源代码\machinelearninginaction\Ch05\horseColicTraining.txt'
-testPath = r'C:\Users\jining\Desktop\机器学习资料\_源代码\machinelearninginaction\Ch05\horseColicTest.txt'
+trainPath = r'\horseColicTraining.txt'
+testPath = r'\horseColicTest.txt'
 train = pd.read_csv(trainPath,sep='\t',header=None)
 test = pd.read_csv(testPath,sep='\t',header=None)
 
