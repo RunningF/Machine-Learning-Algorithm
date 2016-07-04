@@ -11,7 +11,7 @@ from sklearn.decomposition import PCA
 
 #读入数据
 #数据有1567个样本，590个特征
-path=r'C:\Users\jining\Desktop\机器学习资料\_源代码\machinelearninginaction\Ch13\secom.data'
+path=r'\secom.data'
 data=pd.read_csv(path,header=None,sep=' ')
 
 #利用pca算法进行降维
